@@ -1,0 +1,235 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #f5f7fa
+}
+nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 50px;
+   align-items: center;
+    justify-content: space-between; 
+   
+}
+nav>img{
+    width: 5%;
+}
+nav>h2{
+    margin-left: 20px;
+}
+nav>input{
+    width: 40%;
+    padding: 5px;
+    border-radius: 10px;
+}
+nav>button{
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 10px 10px 10px;
+}
+#banner{
+   width: 80%;
+   margin: auto;
+   padding-bottom: 10px; 
+   margin-top: 40px;
+}
+#banner img{
+    width: 100%;
+    border-radius: 50px;
+}
+#covid p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 40px;
+    
+}
+.mid-section{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    /* border: 1px red solid; */
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    /* background-color: white; */
+}
+.mid-section h3{
+    color: #313131;
+    font-size: 18px;
+    text-align: left;
+}
+.mid-section img {
+    display: block;
+    padding-left: 20px;
+    height: 100px;
+    width: 80;
+    /* margin: auto; */
+}
+.mid-section p{
+    text-align: center;
+    text-align: justify;
+    font-size: 14px;
+    color: #717171;
+}
+.mid-section>div{
+  width: 30%;
+}
+h1,h2{
+    padding-left: 10%;
+    /* background-color: white; */
+}
+.mid-section1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+ }
+.mid-section1>div:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mid-section1>div{
+   
+    width: 13%;
+    border-radius: 7px;
+    text-align: center;
+}
+.mid-section1 img {
+    display: block;
+    padding-left: 20px;
+    height: 100px;
+    width: 90%;
+    /* margin: auto; */
+}
+.mid-section1>div>p{
+    text-align: center;
+}
+h1,h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #313131;
+}
+.mid-section2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    
+}
+
+
+.mid-section2>div{
+    width: 22%;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    padding-bottom: 15px;
+    }
+.mid-section2>div>img{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.mid-section2>div>h3{
+    text-align: center;
+    padding: 10px;
+}
+.mid-section2>div>:nth-child(5){
+    /* display: block; */
+    /* align-items: center;
+    justify-content: center; */
+    /* border: 2px solid red; */
+    justify-content: flex-end;
+    margin-left: 65%;
+    
+
+}
+   
+
+
+/* footer css */
+.footer{
+    background-color: #f5f7fa;
+    padding: 40px 0;
+    width: 80%;
+    margin: auto;
+
+}
+.footer-top h4{
+    font-weight: 700
+}
+.footer-top p{
+    color: #717171!important;
+    font-weight: 200;
+    font-size: 12px!important;
+    margin: 0 0 12px;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer-col{
+    width: 25%;
+  
+    /* padding: 0 15px; */
+    background: transparent;
+    padding: 50px 0 20px ;
+
+}
+.footer-col h4{
+    /* font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative; */
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    color: #313131;
+    margin: 0 0 20px;
+    position: relative;
+}
+.footer-col h4::before{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    /* font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease */
+    color: #717171;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+
+}

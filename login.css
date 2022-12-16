@@ -1,0 +1,60 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: #f5f7fa; */
+    background-image: url("https://wallpaperaccess.com/full/2076125.jpg");
+    background-size: cover;
+    
+}
+
+
+
+body>div{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+}
+form {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 97%;
+    padding: 30px;
+    text-align: left;
+}
+input[type="submit"] {
+    background-color: #0a29a5;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+input[type="submit"]:hover {
+    background-color: #eb6a6a;
+}
+* {
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 14px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize:vertical;
+}
+

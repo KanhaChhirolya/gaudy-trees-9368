@@ -5,6 +5,9 @@
     box-sizing: border-box;
     background-color: #f5f7fa
 }
+/* #nav{
+      position: fixed;
+} */
 nav {
     width: 80%;
     margin: auto;
@@ -12,6 +15,9 @@ nav {
     height: 50px;
    align-items: center;
     justify-content: space-between; 
+    /* position: fixed; */
+    /* position: sticky; */
+
    
 }
 nav>img{
@@ -25,7 +31,7 @@ nav>input{
     padding: 5px;
     border-radius: 10px;
 }
-nav>button{
+nav>a>button{
   border-radius: 5px;
   background-color: red;
   color: white;
@@ -50,6 +56,8 @@ nav>button{
     padding-bottom: 40px;
     
 }
+
+/* mid section part 3 */
 .mid-section{
     width: 80%;
     display: flex;
@@ -85,6 +93,8 @@ h1,h2{
     padding-left: 10%;
     /* background-color: white; */
 }
+
+/* mid section part 1 */
 .mid-section1{
     width: 80%;
     margin: auto;
@@ -117,6 +127,8 @@ h1,h2{
     font-size: 30px;
     color: #313131;
 }
+
+/* mid section part 2 */
 .mid-section2{
     width: 80%;
     margin: auto;
@@ -152,12 +164,14 @@ h1,h2{
     /* border: 2px solid red; */
     justify-content: flex-end;
     margin-left: 65%;
+    border-radius: 5pxs;
+    color: #717171;
     
 
 }
-   
-
-
+.mid-section2>div>:nth-child(5):hover{
+    color: black;
+}
 /* footer css */
 .footer{
     background-color: #f5f7fa;
@@ -233,3 +247,9 @@ ul{
     text-decoration: none;
 
 }
+   
+
+
+    
+
+   

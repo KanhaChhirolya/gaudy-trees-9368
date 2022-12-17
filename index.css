@@ -156,7 +156,12 @@ h1,h2{
 .mid-section2>div>h3{
     text-align: center;
     padding: 10px;
+    
 }
+/* .mid-section2>div h5,p{
+    text-align: center;
+    margin: auto;
+} */
 .mid-section2>div>:nth-child(5){
     /* display: block; */
     /* align-items: center;

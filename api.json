@@ -1,0 +1,108 @@
+[
+    {
+        "id":1,
+        "name":"Sofa",
+        "category":"furniture",
+        "rent":"1500",
+        "img":"https://www.rentomojo.com/public/images/category/package-bg/living-room-v2.jpg"
+
+    },
+    {
+        "id":2,
+        "name":"Bed",
+        "category":"furniture",
+        "rent":"1650",
+        "img":"https://www.rentomojo.com/public/images/category/package-bg/bedroom-v1_new.jpg"
+
+    },
+    {
+        "id":3,
+        "name":"Sofa",
+        "category":"furniture",
+        "rent":"1550",
+        "img":"https://www.rentomojo.com/public/images/category/package-bg/living-room-v2.jpg"
+
+    },
+    {
+        "id":4,
+        "name":"Dinning",
+        "category":"furniture",
+        "rent":"1500",
+        "img":"https://www.rentomojo.com/public/images/category/package-bg/dining-v1.jpg"
+
+    },
+    {
+        "id":5,
+        "name":"Table",
+        "category":"furniture",
+        "rent":"1500",
+        "img":"https://www.rentomojo.com/public/images/category/package-bg/study-room-v1.jpg"
+
+    },
+    {
+        "id":6,
+        "name":"AC",
+        "category":"appliances",
+        "rent":"5000",
+        "img":"https://www.rentomojo.com/public/images/category/appliances-bg/air-conditioners.jpg"
+
+    },
+    {
+        "id":7,
+        "name":"Washing machine",
+        "category":"appliances",
+        "rent":"2000",
+        "img":"https://www.rentomojo.com/public/images/category/appliances-bg/washing-machines.jpg"
+
+    },
+    {
+        "id":8,
+        "name":"Television",
+        "category":"appliances",
+        "rent":"1500",
+        "img":"https://www.rentomojo.com/public/images/category/appliances-bg/televisions.jpg"
+    },
+    {
+        "id":9,
+        "name":"Smartdevice",
+        "category":"electronics",
+        "rent":"8500",
+        "img":"https://www.rentomojo.com/public/images/category/appliances-bg/smart-devices-v1_new.jpg"
+
+    },
+    {
+        "id":10,
+        "name":"Smartphones",
+        "category":"electronics",
+        "rent":"4500",
+        "img":"https://www.rentomojo.com/public/images/category/appliances-bg/smartphones_new.jpg"
+
+    },
+    {
+        "id":11,
+        "name":"Laptop",
+        "category":"electronics",
+        "rent":"3500",
+        "img":"https://www.rentomojo.com/public/images/category/appliances-bg/laptops_new_2.jpg"
+
+    },
+    {
+        "id":12,
+        "name":"Cycle",
+        "category":"fitness",
+        "rent":"500",
+        "img":"https://www.rentomojo.com/public/images/category/fitness/cross-trainers.jpg"
+
+    },
+    {
+        "id":13,
+        "name":"Trademil",
+        "category":"fitness",
+        "rent":"2500",
+        "img":"https://www.rentomojo.com/public/images/category/fitness/treadmills.jpg"
+
+    }
+]
+    
+        
+    

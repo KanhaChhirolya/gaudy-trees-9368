@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
+    <!-- <link rel="stylesheet" href=""> -->
     <style>
-      /* Write all necessery css here  */
-      body{
+
+body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -48,14 +49,17 @@
         width: 100%;
       }
     </style>
+    
+      
+   
   </head>
 
   <body>
     <img style="width: 5%;" src="data:image/png;base64,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" alt="">
     <div class="nav">
       <!-- <h1>Rentomojo</h1> -->
-      <a href="./product.html">product</a>
-      <a href="./cart.html">Cart</a>
+      <a href="product.html">product</a>
+      <a href="cart.html">Cart</a>
     </div>
     <!-- Use this Select Tag for Filtering the Products  -->
     <select id="filter">

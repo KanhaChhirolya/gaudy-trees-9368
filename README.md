@@ -2,4 +2,4 @@
 
 # Deployed Link
 
-# https://rentomojo-kanha.netlify.app
+https://rentomojo-kanha.netlify.app
